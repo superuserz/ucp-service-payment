@@ -2,16 +2,16 @@ package com.nagp.ucp.payment.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-#import org.springframework.amqp.rabbit.core.RabbitTemplate;
-#import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.amqp.rabbit.core.RabbitTemplate;
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-#import com.nagp.ucp.common.constant.QueueConstants;
-#import com.nagp.ucp.common.exception.UCPException;
-#import com.nagp.ucp.common.request.NotificationPayload;
-#import com.nagp.ucp.common.responses.BaseResponse;
+//import com.nagp.ucp.common.constant.QueueConstants;
+//import com.nagp.ucp.common.exception.UCPException;
+//import com.nagp.ucp.common.request.NotificationPayload;
+//import com.nagp.ucp.common.responses.BaseResponse;
 
 @RestController
 @RequestMapping(value = "/")
