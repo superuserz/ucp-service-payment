@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @ComponentScan({ "com.nagp.ucp" })
 public class UcpServicePaymentApplication {
 
@@ -17,9 +17,9 @@ public class UcpServicePaymentApplication {
 	}
 
 	// Configured For Rabbit Listener
-	@Bean
-	public org.springframework.amqp.support.converter.MessageConverter converter() {
-		return new Jackson2JsonMessageConverter();
-	}
+	//@Bean
+	//public org.springframework.amqp.support.converter.MessageConverter converter() {
+	//	return new Jackson2JsonMessageConverter();
+	//}
 
 }
